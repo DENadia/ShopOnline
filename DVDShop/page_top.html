@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DVD Shop</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <style>
+    body {
+      background-color: rgb(208, 222, 228);
+    }
+    .topnav {
+      display: grid;
+      height: 200px;
+      width: 100%;
+    grid-template:repeat(4,25%)/repeat(4,25%);
+    }
+    .top-img {
+      grid-column: 4;
+      grid-row:1/5;
+    }
+    .title{
+        grid-column:1/4;
+        grid-row:2/4;
+       color: rgb(18, 89, 204);
+       text-transform: uppercase;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-family:cursive;
+      font-size:15px;
+    }
+    .title a{
+        text-decoration: none;
+        color: rgb(18, 89, 204);
+    }
+    
+  </style>
+  <body>
+    <div class="topnav">
+      <div class="title"><h1><a href="index.php">Immerse yourself into another worlds full of adventurous adventures</a></h1></div>
+     <div class="top-img"> <img style="width: 400px; height: 200px;" src="images/top_background.png" /></div>
+    </div>
+    <hr class="up">
+  </body>
+</html>
